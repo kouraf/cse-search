@@ -12,7 +12,6 @@ import {
   ReactiveList,
 } from "@appbaseio/reactivesearch";
 
-import { ReactiveGoogleMap } from "@appbaseio/reactivemaps";
 import "./styles.css";
 
 // Importing Images
