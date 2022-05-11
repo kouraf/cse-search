@@ -49,7 +49,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'cse-search'
+          app-name: 'cse-workshop'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_727646A9562B4402AE6C3CB242179021 }}
           package: .
